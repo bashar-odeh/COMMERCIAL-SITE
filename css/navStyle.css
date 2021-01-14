@@ -1,0 +1,145 @@
+@media(min-width:991px) {
+    ul {
+        display: flex;
+        flex-direction: row;
+    }
+    .bar-item {
+        display: flex;
+        flex: 1;
+    }
+    .nav-item {
+        transform: translateY(10px);
+    }
+    ul :nth-child(2) {
+        display: flex;
+        float: left;
+    }
+    .sign {
+        display: flex;
+        justify-content: center;
+        margin-left: 700px;
+        color: red;
+        align-items: center;
+    }
+    .sign-up {
+        background-color: gold;
+        color: black;
+        padding: 0.5rem 0.4rem;
+        cursor: pointer;
+        border-bottom-left-radius: 10px;
+        border-top-right-radius: 10px;
+        border: none;
+    }
+    .sign-in {
+        background-color: rgba(100, 100, 100, 0.788);
+        color: black;
+        padding: 0.5rem 0.4rem;
+        cursor: pointer;
+        border-bottom-left-radius: 10px;
+        border-top-right-radius: 10px;
+        border: none;
+    }
+    .sign-up :hover {
+        border-bottom-left-radius: 0;
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 10px;
+        border-top-left-radius: 10px;
+    }
+    li {
+        padding: 5px;
+    }
+}
+
+.sign-up {
+    background-color: gold;
+    color: black;
+    padding: 0.5rem 0.4rem;
+    cursor: pointer;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border: none;
+}
+
+.profile {
+    background-color: gold;
+    color: black;
+    padding: 0.5rem 0.4rem;
+    cursor: pointer;
+    margin-right: 2rem;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border: none;
+}
+
+
+/*
+ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+ul {
+    margin-top: 0.5%;
+    flex: 1;
+    list-style-type: none;
+}
+
+nav ul {
+    display: flex;
+}
+
+ul div {
+    padding: 0 1rem;
+}
+
+ul div:nth-child(1) {
+    flex: 1;
+}
+
+ul .logo {
+    display: flex;
+    flex-direction: row;
+    flex: 0.4;
+}
+
+ul li {
+    cursor: pointer;
+}
+
+.bar-item {
+    display: flex;
+    flex-direction: row;
+}
+
+.bar-item>div {
+    display: inline-block;
+    height: 50px;
+}
+
+
+.line1,
+.line2 {
+    height: 5px;
+    width: 40px;
+    margin-top: 5px;
+    background-color: black;
+    display: block;
+    margin-left: -100px;
+}
+
+.dropContent {
+    display: none;
+}
+
+.dropContent ul {
+    list-style-type: none;
+    flex-direction: column;
+}
+
+.dropContent ul li {
+    margin: 10% 0;
+}
+
+.burger {
+    display: none;
+}

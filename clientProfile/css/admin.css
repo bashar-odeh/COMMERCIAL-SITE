@@ -1,0 +1,44 @@
+.update-info {
+    height: 680px;
+    width: 480px;
+    position: absolute;
+    display: none;
+    left: 50%;
+    transform: translateX(-50%);
+    background: linear-gradient(135deg, #172a74, #63dce0);
+    color: white;
+    border: 1px solid gold;
+    transition: all 1s ease;
+}
+
+table tr th {
+    text-transform: capitalize;
+}
+
+.update-info-car {
+    height: 600px;
+    width: 480px;
+    position: absolute;
+    display: none;
+    left: 50%;
+    margin-top: 60%;
+    top: 500px;
+    border: 1px solid gold;
+    transform: translateX(-50%);
+    background: linear-gradient(135deg, #172a74, #63dce0);
+    color: white;
+    transition: all 1s ease;
+}
+
+.activeate {
+    display: block;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    text-align: center;
+}
